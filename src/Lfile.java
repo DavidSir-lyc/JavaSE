@@ -1,5 +1,6 @@
 import java.io.*;
-public class Lfile {
+
+public class LFile {
     public void fileFun() throws IOException{
         File f = new File("./../statics/test.txt");
         System.out.println(f.getPath()); // 获取构造函数传入的参数地址
