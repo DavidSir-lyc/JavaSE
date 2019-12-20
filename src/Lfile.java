@@ -13,9 +13,13 @@ public class Lfile {
         System.out.println(f.canExecute()); // 断该File对象是否是一个已存在的目录
     }
     public void createFile() throws IOException {
-        /*File createFile = new File("./../statics/newFile.txt");
-        if (createFile.createNewFile()) {
-            System.out.println("成功");
-        }*/
+       String path = "C:\\job\\learning\\java\\pjt\\statics";
+       String fileName = "newFile.txt";
+       File newFile = new File(path, fileName);
+       if (newFile.exists()) {
+           newFile.delete();
+       } else {
+           newFile.createNewFile();
+       }
     }
 }
