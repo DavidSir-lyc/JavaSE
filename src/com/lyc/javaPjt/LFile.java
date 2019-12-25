@@ -1,3 +1,5 @@
+package com.lyc.javaPjt;
+
 import java.io.*;
 
 public class LFile {

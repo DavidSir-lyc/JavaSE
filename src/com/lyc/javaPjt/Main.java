@@ -1,7 +1,7 @@
-/**
- * separator (n.) 分离器
- * */
+package com.lyc.javaPjt;
+
 import java.io.*;
+
 public class Main {
     public static void main(String[] args) throws IOException {
         /**file类的学习*/

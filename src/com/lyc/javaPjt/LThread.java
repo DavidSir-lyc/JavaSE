@@ -1,3 +1,5 @@
+package com.lyc.javaPjt;
+
 public class LThread extends Thread {
     private String name;
     private int age;
