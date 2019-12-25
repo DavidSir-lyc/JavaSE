@@ -16,7 +16,7 @@ public class LFile {
         System.out.println(f.canExecute()); // 断该File对象是否是一个已存在的目录*/
     }
     public void createFile() throws IOException {
-       String path = "C:\\job\\learning\\java\\pjt\\statics";
+       String path = "C:\\job\\codes\\java\\pjt\\statics";
        String fileName = "newFile.txt";
        File newFile = new File(path, fileName);
        if (newFile.exists()) {

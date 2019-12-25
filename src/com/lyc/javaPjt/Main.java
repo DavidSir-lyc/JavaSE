@@ -19,5 +19,8 @@ public class Main {
         LRunnable lrunnable = new LRunnable();
         Thread thread = new Thread(lrunnable);
         thread.start(); // 开启子线程
+        /**String类学习*/
+        LString lstring = new LString();
+        lstring.testString();
     }
 }
