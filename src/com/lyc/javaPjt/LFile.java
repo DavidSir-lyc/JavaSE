@@ -46,4 +46,20 @@ class LFile {
             System.out.println(item);
         }
     }
+    void fileFilterFun() throws IOException{
+        String path = "C:\\job\\codes\\java\\pjt\\src\\com\\lyc\\javaPjt\\test";
+        File f = new File(path);
+        File[] fileFilter = f.listFiles(
+                // FileFilter接口的实现，过滤listFiles符合条件的文件
+                new FileFilter() {
+                    @Override
+                    public boolean accept(File f) {
+                        return f.isFile(); // 过滤条件
+                    }
+                }
+        );
+        for (File item : fileFilter) {
+            System.out.println(item);
+        }
+    }
 }

@@ -8,7 +8,9 @@ public class Main {
         LFile lfile= new LFile();
         // lfile.fileFun();
         // lfile.createFile();
-        lfile.createDirectory();
+        // lfile.createDirectory();
+        lfile.fileFilterFun();
+
         /**
          * thread类的学习
          * 启动一个新的线程，不是直接调用 Thread  子类对象的 run() 方法，而是调用 Thread 子类的 start() 方法
