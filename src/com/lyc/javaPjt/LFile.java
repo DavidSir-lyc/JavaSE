@@ -62,4 +62,5 @@ class LFile {
             System.out.println(item);
         }
     }
+    /**预留RandimAccessFile*/
 }
