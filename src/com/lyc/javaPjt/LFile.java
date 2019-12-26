@@ -38,7 +38,12 @@ class LFile {
         if (dir.exists()) {
             dir.delete();
         } else {
-            dir.mkdir();
+            dir.mkdirs();
+        }
+        // listFiles获取当前路径下子文件，子目录的list
+        File[] arr = dir.listFiles();
+        for (File item : arr) {
+            System.out.println(item);
         }
     }
 }
