@@ -8,6 +8,7 @@ public class Main {
         LFile lfile= new LFile();
         // lfile.fileFun();
         // lfile.createFile();
+        lfile.createDirectory();
         /**
          * thread类的学习
          * 启动一个新的线程，不是直接调用 Thread  子类对象的 run() 方法，而是调用 Thread 子类的 start() 方法
@@ -21,7 +22,7 @@ public class Main {
         // thread.start(); // 开启子线程
         /**String类学习*/
         LString lstring = new LString();
-        lstring.testString();
+        // lstring.testString();
         // lstring.testStringBuilder();
     }
 }
