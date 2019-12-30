@@ -1,16 +1,14 @@
 package com.lyc.javaPjt;
 
-import java.io.*;
-
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         /**file类的学习*/
         LFile lfile= new LFile();
         // lfile.fileFun();
         // lfile.createFile();
         // lfile.createDirectory();
         // lfile.fileFilterFun();
-        lfile.rafFun();
+        // lfile.rafFun();
 
         /**
          * thread类的学习
@@ -27,5 +25,7 @@ public class Main {
         LString lstring = new LString();
         // lstring.testString();
         // lstring.testStringBuilder();
+        /**socket类学习*/
+
     }
 }
