@@ -9,7 +9,8 @@ public class Main {
         // lfile.fileFun();
         // lfile.createFile();
         // lfile.createDirectory();
-        lfile.fileFilterFun();
+        // lfile.fileFilterFun();
+        lfile.rafFun();
 
         /**
          * thread类的学习

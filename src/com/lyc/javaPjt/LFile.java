@@ -62,5 +62,15 @@ class LFile {
             System.out.println(item);
         }
     }
-    /**预留RandimAccessFile*/
+    /**
+     * RandimAccessFile是基于当前指针的读写操作
+     **/
+    void rafFun() throws IOException{
+        RandomAccessFile raf = new RandomAccessFile("C:\\job\\codes\\java\\pjt\\src\\com\\lyc\\javaPjt\\test\\read","rw");
+        raf.write('A');
+        long pointer = raf.getFilePointer(); // 获取当前指针位置
+        // System.out.println(pointer);
+        raf.seek(0);// 移动指针位置到
+        raf.close();
+    }
 }
