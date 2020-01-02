@@ -1,8 +1,10 @@
 package com.lyc.javaPjt;
 
 public class Main {
-    public static void main(String[] args) {
-        /**file类的学习*/
+    public static void main(String[] args) throws Exception {
+        /**
+         * file类的学习
+         * */
         LFile lfile= new LFile();
         // lfile.fileFun();
         // lfile.createFile();
@@ -17,15 +19,28 @@ public class Main {
          * */
         LThread lthread = new LThread();
         // lthread.start(); // 开启子线程
-        /**Runnable接口实现学习*/
+        /**
+         * Runnable接口实现学习
+         * */
         LRunnable lrunnable = new LRunnable();
         Thread thread = new Thread(lrunnable);
         // thread.start(); // 开启子线程
-        /**String类学习*/
+        /**
+         * String类学习
+         * */
         LString lstring = new LString();
         // lstring.testString();
         // lstring.testStringBuilder();
-        /**socket类学习*/
-
+        /**
+         * socket类学习
+         * */
+        LSocket lSocket = new LSocket();
+        // lSocket.someFun();
+        /**
+         * collection接口实现学习
+         * */
+        LCollection lCollection = new LCollection();
+        // lCollection.arrayListFun();
+        lCollection.linkedListFun();
     }
 }
