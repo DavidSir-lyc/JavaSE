@@ -1,7 +1,9 @@
 package com.lyc.javaPjt;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.TreeSet;
 
 public class LCollection {
     /**
@@ -25,5 +27,38 @@ public class LCollection {
         linkedList.add("B");
         linkedList.add("C");
         System.out.println(linkedList);
+    }
+    void hashSetFun() {
+        /**
+         * HashSet不保证顺序,没有单独取出元素的内置方法
+         * */
+        HashSet hashSet = new HashSet<String>();
+        hashSet.add("A");
+        hashSet.add("B");
+        hashSet.add("C");
+        hashSet.add("D");
+        hashSet.add("D");
+        System.out.println(hashSet);
+        hashSet.remove("D");
+        System.out.println(hashSet.contains("D"));
+        hashSet.clear();
+        System.out.println(hashSet);
+    }
+    void treeSetFun() {
+        /**
+         * TreeSet 类实现的 Set 接口默认情况下是升序排序。
+         * */
+        TreeSet treeSet = new TreeSet<String>();
+        treeSet.add("D");
+        treeSet.add("B");
+        treeSet.add("A");
+        treeSet.add("C");
+
+        System.out.println(treeSet);
+        System.out.println(treeSet);
+        treeSet.remove("D");
+        System.out.println(treeSet.contains("D"));
+        treeSet.clear();
+        System.out.println(treeSet);
     }
 }

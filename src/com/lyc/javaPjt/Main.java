@@ -41,6 +41,8 @@ public class Main {
          * */
         LCollection lCollection = new LCollection();
         // lCollection.arrayListFun();
-        lCollection.linkedListFun();
+        // lCollection.linkedListFun();
+        // lCollection.hashSetFun();
+        lCollection.treeSetFun();
     }
 }
