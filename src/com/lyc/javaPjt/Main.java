@@ -43,6 +43,11 @@ public class Main {
         // lCollection.arrayListFun();
         // lCollection.linkedListFun();
         // lCollection.hashSetFun();
-        lCollection.treeSetFun();
+        // lCollection.treeSetFun();
+        /**
+         * LMap接口实现学习
+         * */
+        LMap lmap = new LMap();
+        lmap.mapFun();
     }
 }
