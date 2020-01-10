@@ -48,6 +48,11 @@ public class Main {
          * LMap接口实现学习
          * */
         LMap lmap = new LMap();
-        lmap.mapFun();
+        // lmap.mapFun();
+        /**
+         * JDBC接口实现学习
+         * */
+        LJDBC ljdbc = new LJDBC();
+        ljdbc.testJDBC();
     }
 }
