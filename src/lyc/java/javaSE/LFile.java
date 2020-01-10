@@ -1,4 +1,4 @@
-package com.lyc.javaPjt;
+package lyc.java.javaSE;
 
 import java.io.*;
 

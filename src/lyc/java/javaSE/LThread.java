@@ -1,4 +1,4 @@
-package com.lyc.javaPjt;
+package lyc.java.javaSE;
 
 public class LThread extends Thread {
     private String name;

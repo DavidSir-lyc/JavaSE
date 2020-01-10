@@ -1,4 +1,4 @@
-package com.lyc.javaPjt;
+package lyc.java.javaSE;
 
 public class LRunnable implements Runnable {
     //  run() 方法正是对,Runnable 接口中 run() 方法的具体实现

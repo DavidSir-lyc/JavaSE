@@ -1,4 +1,4 @@
-package com.lyc.javaPjt;
+package lyc.java.javaSE;
 
 public class Main {
     public static void main(String[] args) throws Exception {
