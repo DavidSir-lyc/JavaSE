@@ -14,8 +14,6 @@ public class Main {
 
         /**
          * thread类的学习
-         * 启动一个新的线程，不是直接调用 Thread  子类对象的 run() 方法，而是调用 Thread 子类的 start() 方法
-         * Thread 类的 start() 方法会产生一个新的线程，该线程用于执行 Thread 子类的 run() 方法。
          * */
         LThread lthread = new LThread();
         // lthread.start(); // 开启子线程

@@ -1,5 +1,12 @@
 package lyc.java.javaSE;
 
+/**
+ * 多线程编程
+ * 1. 继承thread类
+ * 2. 重写run方法
+ * 3. 用新建的线程类实例化对象，调用start()方法开启线程，调用run()方法体。
+ * start() --调用--> run()
+ * */
 public class LThread extends Thread {
     private String name;
     private int age;
