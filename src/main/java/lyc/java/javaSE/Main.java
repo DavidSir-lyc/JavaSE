@@ -53,6 +53,20 @@ public class Main {
          * JDBC接口实现学习
          * */
         LJDBC ljdbc = new LJDBC();
-        ljdbc.testJDBC();
+        // ljdbc.testJDBC();
+        /**
+         * 反射学习
+         * 使用反射的N种方式
+         * */
+        // 通过实例化对象的.getClass()方法获取
+        /*LReflection LR = new LReflection();
+        LR.getClass();*/
+        // 通过类获取class对象，只有lei才有.class属性
+        /*Class<LReflection> lR = LReflection.class;*/
+        // 用类的全限定名，运行时，加载类到JVM
+        /*Class.forName("lyc.java.javaSE.LReflection");*/
+        // 通过类加载器获取
+        /*LReflection.class.getClassLoader("lyc.java.javaSE.LReflection")*/
+
     }
 }
