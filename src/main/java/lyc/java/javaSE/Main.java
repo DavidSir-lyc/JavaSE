@@ -16,7 +16,12 @@ public class Main {
          * thread类的学习
          * */
         LThread lthread = new LThread();
-        // lthread.start(); // 开启子线程
+        lthread.start(); // 开启子线程
+        /*for (int i=1;i<=60;i++) {
+        // Thread.sleep()方法可以让当前线程程序延时执行
+            Thread.sleep(1000);
+            System.out.println(i);
+        }*/
         /**
          * Runnable接口实现学习
          * */
